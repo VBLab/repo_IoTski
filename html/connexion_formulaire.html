@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon compte</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/css/bootstrap.css">
+    <!-- Font -->
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+	<!-- Barre de navigation -->
+	 <header class="header">
+      	<a href="../index.html" class="header-logo">
+        	<img src="../img/logo.jpg" width="70px" height="70px" alt="logo de la boite">
+      	</a>
+      	<nav class="header-menu">
+          	<a href="./adn.html"><button type="button" class="btn btn-outline-light" id="ancre">ADN</button></a>
+          	<a href="./produits_liste.html"><button type="button" class="btn btn-outline-light">Produits</button></a>
+          	<a href="./equipe.html"><button type="button" class="btn btn-outline-light">Équipe</button></a>
+          	<a href="./partenaires.html"><button type="button" class="btn btn-outline-light">Partenaires</button></a>
+          	<a href="./contact.html"><button type="button" class="btn btn-outline-light">Contact</button></a>
+          	<a href="./connexion_formulaire.html"><button type="button" class="btn btn-outline-light">Connexion</button></a>
+     	 </nav>
+      	
+      	<div class="burger">
+        	<i class="fas fa-align-justify"></i>
+      	</div>
+    </header>
+
+    <!-- Bannière -->
+    <div class="banner" id="ancre">
+      <img src="../img/Banner.jpg" alt="mec qui regarde une montagne" class="banner-image">
+    </div>
+
+    <!-- Formulaire de connexion -->
+	<div class="bloc_page">
+		<h1>Connexion - IoT Ski</h1>
+		<form method="post" action="https://httpbin.org/post">
+  			<div class="form-group">
+    			<label for="exampleInputEmail1">Votre adresse mail</label>
+   				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    			<small id="emailHelp" class="form-text text-muted">Nous nous engageons à ne pas divulger votre adresse mail.</small>
+  			</div>
+ 
+  			<div class="form-group">
+    			<label for="exampleInputPassword1">Votre mot de passe</label>
+    			<input type="password" class="form-control" id="exampleInputPassword1">
+  			</div>
+  			
+  			<div class="form-group form-check">
+    		<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    		<label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+  			</div>
+  			<button type="button" class="btn btn-outline-dark">Envoyer</button>
+		</form>
+    
+    <div id="mdpoubli">
+      <a href="xx">Mot de passe oublié ?</a>
+    </div>
+
+		
+	</div>
+
+	<!-- Footer -->
+	<footer>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h6>Nous contacter</h6>
+        <p>Ecrivez-nous !<br/><a href="mailto:contact@iotskiandco.fr">contact@iotskiandco.fr</a></p>
+      </div>
+
+      <div class="col-md-3">
+        <h6>Où sommes-nous ?</h6>
+        <p>Savoie Technolac<br/>Bâtiment l'Horloge<br/>Le Bourget-du-Lac</p>
+      </div>
+
+      <div class="col-md-5">
+        <h6>Recrutement</h6>
+        <p>Vous voulez rejoindre notre équipe ?<br/><a href="mailto:contact@iotskiandco.fr">contact@iotskiandco.fr</a></p>
+      </div>
+
+      <div class="col-md-1">
+        <div class="socialMedia">
+        <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <div class="flecheHaut">
+        <a href="#ancre"><i class="far fa-arrow-alt-circle-up fixed-bottom-right"></i></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
